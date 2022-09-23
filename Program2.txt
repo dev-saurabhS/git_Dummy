@@ -1,0 +1,19 @@
+class A{
+
+static public void add(){
+System.out.println("Hello");
+
+sub();
+}
+
+static public void sub(){
+System.out.println("Bye");
+add();
+}
+
+public static void main(String[]args){
+
+A.add();
+
+}
+}
